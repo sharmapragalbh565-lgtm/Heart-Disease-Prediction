@@ -3,8 +3,10 @@
 The objective of this project is to predict the presence of heart disease in patients based on various clinical parameters using a Random Forest classification algorithm, and to deploy the trained model as a REST API using Flask. The API is accompanied by a custom web interface styled with a vintage anatomy textbook theme.
 
 # Dataset
-Dataset: Heart Disease Prediction Dataset
+Dataset: Heart Disease Prediction
+Dataset
 Source: Kaggle
+
 Important
 
 The dataset file heart.csv should be placed in the project root directory before running the model training script.
@@ -41,8 +43,7 @@ Structured the repository with the necessary source code, trained model, and con
 Deployed the Flask application as a live web service using Render.
 
 # Results
-Model Performance Metrics
-Model	Accuracy
-Random Forest	98.54%
+
+Model	Accuracy 98.54%
 # Conclusion
 In this project, the Random Forest classifier achieved an exceptional accuracy of 98.54% on the test set, demonstrating its strong capability to capture complex, non-linear relationships within clinical parameters for heart disease prediction. Deploying the model using Flask and Render proved to be a valuable experience, although ensuring the correct environment configuration via requirements.txt and handling proper JSON payload structures presented minor challenges. These hurdles highlight the critical importance of MLOps. Developing a machine learning model is only half the battle; MLOps practices are essential for transitioning models from isolated environments into scalable, reliable, and accessible production APIs. Proper deployment strategies ensure that predictive models can consistently process real-world data and deliver actionable insights efficiently.
