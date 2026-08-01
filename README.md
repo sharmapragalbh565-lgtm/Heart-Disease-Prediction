@@ -4,7 +4,7 @@ The objective of this project is to predict the presence of heart disease in pat
 
 # Dataset
 Dataset: Heart Disease Prediction
-Dataset
+
 Source: Kaggle
 
 Important
@@ -13,9 +13,13 @@ The dataset file heart.csv should be placed in the project root directory before
 
 # Libraries Used
 pandas - data loading and manipulation
+
 scikit-learn - train/test split, Random Forest classifier, and evaluation metrics
+
 joblib - model serialization
+
 flask - REST API development
+
 gunicorn - WSGI HTTP Server for deployment
 # Methodology
 Task 1: Data Preprocessing
